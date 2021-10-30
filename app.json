@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/guest/guest",
+    "pages/map/map",
+    "pages/video/video",
+    "pages/picture/picture"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#43325e",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#ccc",
+    "selectedColor": "#ff4c91",
+    "borderStyle": "white",
+    "backgroundColor": "#303030",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/xjg.png",
+        "selectedIconPath": "images/xjk.png",
+        "text": "邀请函"
+      },
+      {
+        "pagePath": "pages/picture/picture",
+        "iconPath": "images/ngg.png",
+        "selectedIconPath": "images/ngk.png",
+        "text": "化妆展示"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "iconPath": "images/dd1.png",
+        "selectedIconPath": "images/dd2.png",
+        "text": "秘密"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "iconPath": "images/df1.png",
+        "selectedIconPath": "images/df2.png",
+        "text": "活动地点"
+      },
+      {
+        "pagePath": "pages/guest/guest",
+        "iconPath": "images/reng.png",
+        "selectedIconPath": "images/renk.png",
+        "text": "你的信息"
+      }
+    ]
+  },
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "plugins": {
+    "tencentvideo": {
+      "version": "1.2.4",
+      "provider": "wxa75efa648b60994b"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

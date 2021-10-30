@@ -1,0 +1,41 @@
+<view class="player player-{{isPlayingMusic ? 'play' : 'pause'}}" bindtap="play">
+  <image src="/images/music_icon.png" />
+  <image src="/images/music_play.png" />
+</view>
+<!-- 背景图片 -->
+<image class="bg" src="/images/bgt.jpeg" />
+<!-- 内容区域 -->
+<view class="content">
+  <view  class="content-title"></view>
+  <!-- 顶部GIF图片 -->
+  <image class="topImage" style="height: 230rpx;width: 230rpx;" src="/images/gost2.gif" />
+  <!-- 标题 -->
+  <view class="content-title">它要来了</view>
+  <!-- 新娘和新郎的名字 -->
+  <view class="content-info">
+    <view class="content-name2">
+      <image src="/images/yan.png" />
+      <view>要来了?</view>
+      <view>..</view>
+    </view>
+    <view class="content-wedding">
+      
+    </view>
+    <view class="content-name">
+      <image src="/images/yan.png" />
+      <view>真的吗?</view>
+      <view>..</view>
+    </view>
+  </view>
+    <!-- 新郎和新娘的合照 -->
+    <view class="content-avatar">
+    <image src="/images/C_S.gif" />
+  </view>
+  <!-- 婚礼信息 -->
+  <view class="content-address">
+    <view>嘘..</view>
+    <view>不论你今天晚上会看到什么…记住千万</view>
+    <view>不要大叫，因为他会一直在你身边陪着你。。</view>
+    <view></view>
+  </view>
+</view>
